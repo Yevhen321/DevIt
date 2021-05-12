@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.form {
+  max-width: 370px;
+  border: 1px solid gray;
+  padding: 1rem 1rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: aliceblue;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 0.2rem;
+  margin: 0.1rem 0;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 0.2rem;
+  margin: 0.1rem 0;
+}
+
+.input {
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.2rem;
+  border: 1px solid #ccc;
+}
+
+.label {
+  color: rgb(55, 55, 55);
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
